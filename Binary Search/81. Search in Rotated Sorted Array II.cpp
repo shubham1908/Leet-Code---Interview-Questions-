@@ -1,5 +1,11 @@
 class Solution {
 public:
+    Solution(){
+        ios_base::sync_with_stdio(false);
+        cin.tie(0);
+        cout.tie(0);
+    }
+    
     bool search(vector<int>& nums, int target) {
         int l=0,r=nums.size()-1,mid;
         while(l<=r){
