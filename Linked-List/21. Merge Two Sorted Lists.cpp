@@ -28,7 +28,7 @@ public:
             else{
                 ListNode* t=new ListNode(y);
                 t3->next=t;
-                t3=t;
+                t3 = t;
                 t2=t2->next;
             }
         }
