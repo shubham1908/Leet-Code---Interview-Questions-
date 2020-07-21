@@ -13,7 +13,7 @@ public:
             if(mp.find(s[i])!=mp.end()){
                 j = max(mp[s[i]]+1,j);
             }
-            mp[s[i]]=i;
+            mp[s[i]] = i;
             ans = max(ans, i-j+1);
         }
         return ans;
