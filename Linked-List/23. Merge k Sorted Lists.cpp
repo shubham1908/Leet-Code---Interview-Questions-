@@ -23,7 +23,7 @@ public:
             ListNode* temp=new ListNode(q.top());
             q.pop();
             T->next=temp;
-            T=temp;
+            T = temp;
         }
         return L->next;
     }
