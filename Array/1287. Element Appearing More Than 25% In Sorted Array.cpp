@@ -10,7 +10,7 @@ public:
         int i=0,x;
         for(int j=0;j<arr.size();j++){
             if(arr[i]==arr[j]){
-                if(j-i+1>=arr.size()/4+1){
+                if(j-i+1 >= arr.size()/4+1){
                     return arr[i];
                 }
             }
