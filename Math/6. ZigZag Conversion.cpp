@@ -29,7 +29,7 @@ public:
                         break;
                     }
                     if((m+1)*(2*n-2)-k<s.length()){
-                        ans+=s[(m+1)*(2*n-2)-k];
+                        ans+=s[(m+1) * (2*n-2)-k];
                     } 
                     else{
                         break;
