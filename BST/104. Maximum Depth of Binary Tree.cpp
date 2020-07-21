@@ -22,8 +22,8 @@ public:
             return 0;
         }
         int d=0;
-        d=max(d, maxDepth(root->left));
-        d=max(d, maxDepth(root->right));
+        d = max(d, maxDepth(root->left));
+        d = max(d, maxDepth(root->right));
         return d+1;
     }
 };
