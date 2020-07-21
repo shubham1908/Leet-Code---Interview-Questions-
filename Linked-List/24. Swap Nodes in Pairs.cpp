@@ -14,7 +14,7 @@ public:
         ListNode* node = new ListNode();
         node->next = head;
         head = node;
-        while(node->next!=NULL && node->next->next!=NULL){
+        while(node-> != NULL && node->next->next != NULL){
             ListNode *temp = node->next->next->next, *x = node; 
             
             // swap(node->next, node->next->next)
